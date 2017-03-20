@@ -10,6 +10,9 @@ RUN apt-get update \
     rst2pdf \
     python-pil \
     python-imaging \
-    python-pygments
+    python-pygments \
+    texlive-full
+
+RUN pip install --update md2pdf
 
 WORKDIR /build
