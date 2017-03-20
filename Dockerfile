@@ -11,7 +11,7 @@ RUN apt-get update \
     python-pil \
     python-imaging \
     python-pygments \
-    texlive-full
+    texlive-latex-recommended
 
 RUN pip install --update md2pdf
 
